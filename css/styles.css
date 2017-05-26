@@ -13,7 +13,7 @@ body {
 }
 /*-------------------------HEADER---------------------------*/
 .ribbon {
- font-size: 25px;
+ font-size: 33px;
  font-family: Chelsea Market;
  width: 50%;
  position: relative;
@@ -59,15 +59,13 @@ body {
 }
 /*-------------------------TEXT---------------------------*/
 .text {
-  width: 30%;
+  width: 200px;
   position: absolute;
   top: 70%;
     left: 20%;
-    margin-right: 10%;
+    margin-right: 90%;
     transform: translate(-50%, -50%);
 }
-
-
 /*-------------------------FORM---------------------------*/
 form {
   width: 30%;
