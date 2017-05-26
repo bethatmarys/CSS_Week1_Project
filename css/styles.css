@@ -4,27 +4,38 @@
  +  -webkit-box-sizing: border-box;
  +    -moz-box-sizing: border-box;
  +      box-sizing: border-box;
- +}
+ +
+    }
 /*-------------------------BODY---------------------------*/
-
 body {
   background: url(../img/kuri.png) no-repeat center center fixed;
   background-size: cover;
 
 }
-
 /*-------------------------HEADER---------------------------*/
-
+*,
+ +*::before,
+ +*::after {
+ +  -webkit-box-sizing: border-box;
+ +    -moz-box-sizing: border-box;
+ +      box-sizing: border-box;
+ +}
+/*-------------------------BODY---------------------------*/
+body {
+  background: url(../img/kuri.png) no-repeat center center fixed;
+  background-size: cover;
+}
+/*-------------------------HEADER---------------------------*/
 .ribbon {
- font-size: 25px !important;
+ font-size: 25px;
  font-family: Chelsea Market;
  width: 50%;
  position: relative;
  background: #ba89b6;
  color: #fff;
  text-align: center;
- padding: .90em 2em; /* Adjust to suit */
- margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+ padding: .90em 2em;
+ margin: 2em auto 3em;
 }
 .ribbon:before, .ribbon:after {
  content: "";
@@ -70,59 +81,27 @@ form {
   color: black;
   font-weight: bold;
   font-size: 20px;
-
-
 }
 .firstName {
   width: 10px
 }
-
-
-
-
 /*-------------------------GALLERY---------------------------*/
 img {
   border: 2px;
   border-style: solid;
-  border-color: blue;
-  width: 150px;
-  height: 150px;
+  border-color: #DADADA;
+  width: 125px;
+  height: 125px;
 }
-.friendNumber {
-  color: red;
-}
-
-.online {
-  border: none;
-  width: 90px;
-  height: 25px;
-}
-
- .friend {
-   text-align: center;
-   float: left;
-   margin-left: 60px;
+ .photo img{
+    position: relative;
+    display: block;
+    float: left;
  }
- .friend2 {
-   text-align: center;
-   float: left;
-   margin-left: 60px;
+ .container img:target{
+   margin-left: 75em;
+   position: relative;
+   top: 0;
+   max-height: 90%;
  }
-
-.viewAll {
-  color: red;
-  text-align: right;
-}
-
-.container {
-  width: 65%;
-}
-
-
-
-
-
-
-
-
 /*-------------------------????---------------------------*/
