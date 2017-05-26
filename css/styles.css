@@ -1,0 +1,24 @@
+*,
+ +*::before,
+ +*::after {
+ +  -webkit-box-sizing: border-box;
+ +    -moz-box-sizing: border-box;
+ +      box-sizing: border-box;
+ +}
+/*-------------------------BODY---------------------------*/
+
+body {
+  background: url(../img/kuri.png) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Chelsea Market', cursive;
+}
+
+
+/*-------------------------HEADER---------------------------*/
+
+
+font-family: 'Chelsea Market', cursive;
+
+/*-------------------------GALLERY---------------------------*/
+/*-------------------------????---------------------------*/
+/*-------------------------????---------------------------*/
