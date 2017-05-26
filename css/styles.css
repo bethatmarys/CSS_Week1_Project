@@ -10,20 +10,6 @@
 body {
   background: url(../img/kuri.png) no-repeat center center fixed;
   background-size: cover;
-
-}
-/*-------------------------HEADER---------------------------*/
-*,
- +*::before,
- +*::after {
- +  -webkit-box-sizing: border-box;
- +    -moz-box-sizing: border-box;
- +      box-sizing: border-box;
- +}
-/*-------------------------BODY---------------------------*/
-body {
-  background: url(../img/kuri.png) no-repeat center center fixed;
-  background-size: cover;
 }
 /*-------------------------HEADER---------------------------*/
 .ribbon {
@@ -73,17 +59,14 @@ body {
 }
 /*-------------------------FORM---------------------------*/
 form {
-  padding: 50px;
-  width: 500px;
-  position: relative;
-  margin-top: 650px;
-  margin-left: 25px;
-  color: black;
-  font-weight: bold;
-  font-size: 20px;
-}
-.firstName {
-  width: 10px
+  width: 30%;
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 70%;
+    left: 90%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 /*-------------------------GALLERY---------------------------*/
 img {
@@ -94,14 +77,18 @@ img {
   height: 125px;
 }
  .photo img{
-    position: relative;
     display: block;
     float: left;
  }
  .container img:target{
-   margin-left: 75em;
-   position: relative;
-   top: 0;
-   max-height: 90%;
  }
+.container {
+  width: 100%;
+  display: block;
+  /*margin: auto;*/
+  position: absolute;
+  top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 /*-------------------------????---------------------------*/
