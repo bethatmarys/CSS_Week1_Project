@@ -57,16 +57,37 @@ body {
  right: 0;
  border-width: 1em 1em 0 0;
 }
+/*-------------------------TEXT---------------------------*/
+.text {
+  width: 30%;
+  position: absolute;
+  top: 70%;
+    left: 20%;
+    margin-right: 10%;
+    transform: translate(-50%, -50%);
+}
+
+
 /*-------------------------FORM---------------------------*/
 form {
   width: 30%;
-  display: block;
-  margin: auto;
   position: absolute;
   top: 70%;
     left: 90%;
-    margin-right: -50%;
+    margin-right: 10%;
     transform: translate(-50%, -50%);
+}
+#firstName {
+  padding: 5px;
+}
+#lastName {
+  padding: 5px;
+}
+#email {
+  padding: 5px;
+}
+.button {
+  padding: 5px;
 }
 /*-------------------------GALLERY---------------------------*/
 img {
@@ -79,16 +100,17 @@ img {
  .photo img{
     display: block;
     float: left;
+    margin-left: 5px;
  }
  .container img:target{
  }
 .container {
-  width: 100%;
-  display: block;
-  /*margin: auto;*/
+  width: 50%;
+  display: inline;
   position: absolute;
-  top: 90%;
-    left: 50%;
-    margin-right: -50%;
+    top: 87%;
+    left: 25%;
+    margin-right: 5%;
+    margin-left: 95%
     transform: translate(-50%, -50%);
 /*-------------------------????---------------------------*/
