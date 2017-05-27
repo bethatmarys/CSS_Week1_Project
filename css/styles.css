@@ -59,21 +59,29 @@ body {
 }
 /*-------------------------TEXT---------------------------*/
 .text {
-  width: 200px;
+  width: 220px;
+  height: 300px;
   position: absolute;
   top: 70%;
     left: 20%;
     margin-right: 90%;
     transform: translate(-50%, -50%);
+    border: 2px solid green;
+
 }
 /*-------------------------FORM---------------------------*/
 form {
-  width: 30%;
+  width: 220px;
+  height: 300px;
   position: absolute;
   top: 70%;
-    left: 90%;
+    left: 79%;
     margin-right: 10%;
     transform: translate(-50%, -50%);
+    border: 2px solid green;
+}
+h4 {
+  text-align: center;
 }
 #firstName {
   padding: 5px;
@@ -103,12 +111,11 @@ img {
  .container img:target{
  }
 .container {
-  width: 50%;
+  width: 75%;
   display: inline;
   position: absolute;
     top: 87%;
     left: 25%;
-    margin-right: 5%;
-    margin-left: 95%
-    transform: translate(-50%, -50%);
+    margin-left: 5%
+    transform: translate(-50%, -10%);
 /*-------------------------????---------------------------*/
