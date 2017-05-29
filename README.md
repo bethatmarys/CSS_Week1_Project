@@ -1,4 +1,4 @@
-Puppy for sale
+Kuri
 
 Epicodus Solo Project, CSS, Week One, 05-26-2017
 
@@ -14,12 +14,16 @@ Description
 
 
 Setup/Installation Requirements
-      Clone this repository
-      Open in a web browser index.HTML
+    Clone this repository
+    Open in a web browser index.HTML
+
+Known Bugs:
+    No known bugs
 
 Technologies Used
-      CSS
-
+    HTML
+    CSS
+    Normalize
 
 MIT License
 

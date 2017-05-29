@@ -1,19 +1,26 @@
-*,
- +*::before,
- +*::after {
- +  -webkit-box-sizing: border-box;
- +    -moz-box-sizing: border-box;
- +      box-sizing: border-box;
- +
-    }
-/*-------------------------BODY---------------------------*/
-body {
-  background: url(../img/kuri.png) no-repeat center center fixed;
-  background-size: cover;
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  text-decoration: none;
+  }
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-/*-------------------------HEADER---------------------------*/
+/*-------------------------body---------------------------*/
+
+/*-------------------------KURI---------------------------*/
+.kuri {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+
+}
+  /*-------------------------HEADER---------------------------*/
 .ribbon {
- font-size: 33px;
+ font-size: 25px;
  font-family: Chelsea Market;
  width: 50%;
  position: relative;
@@ -67,7 +74,6 @@ body {
     margin-right: 90%;
     transform: translate(-50%, -50%);
     border: 2px solid green;
-
 }
 /*-------------------------FORM---------------------------*/
 form {
@@ -96,25 +102,23 @@ h4 {
   padding: 5px;
 }
 /*-------------------------GALLERY---------------------------*/
-img {
-  border: 2px;
-  border-style: solid;
-  border-color: #DADADA;
-  width: 125px;
-  height: 125px;
-}
  .photo img{
     display: block;
     float: left;
     margin-left: 5px;
+    border: 2px;
+    border-style: solid;
+    border-color: #DADADA;
+    width: 125px;
+    height: 125px;
  }
  .container img:target{
  }
 .container {
   width: 75%;
   display: inline;
-  position: absolute;
-    top: 87%;
+  position: relative;
+    top: 95%;
     left: 25%;
     margin-left: 5%
     transform: translate(-50%, -10%);
